@@ -7,7 +7,7 @@ use pocketmine\block\BlockIds;
 use pocketmine\item\Item;
 use pocketmine\nbt\NetworkLittleEndianNBTStream;
 use pocketmine\nbt\tag\CompoundTag;
-use pocketmine\network\mcpe\protocol\BlockEntityDataPacket;
+use pocketmine\network\mcpe\protocol\BlockActorDataPacket as BlockEntityDataPacket;
 use pocketmine\network\mcpe\protocol\UpdateBlockPacket;
 
 class BPUtils{
